@@ -1,0 +1,7 @@
+FROM tomcat:8.0
+
+LABEL maintainer="sheik1332"
+
+CMD ["catalina.sh", "run"]
+
+EXPOSE 8080
